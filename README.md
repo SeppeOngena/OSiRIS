@@ -34,7 +34,7 @@
 - Simulation of garden irrigation based on solar irradiance an precipitation
 
 ## Standalone app with user interface
-- Scenario framework: Create different settings combinations or load from a file, simulate in bulk, and save settings, scheme, KPI, and data to files,...\
+- Scenario framework: Create different settings combinations or load from a file, simulate in bulk, and save settings, scheme, KPI, and data to files\
 \
   <img src="https://github.com/user-attachments/assets/d96aedfd-ca75-401a-bf16-3ebd8f0a63ac" alt="Scenario" width="50%"/>
   <img src="https://github.com/user-attachments/assets/82a0cb79-41ce-4ec3-9201-1fca01ee6dbd" alt="Scenario" width="50%"/>
