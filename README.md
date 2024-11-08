@@ -52,4 +52,4 @@
 - Evaluate simulation results in graphs for the volume and concentration of tanks, renewable and grid energy use, and battery capacity
 
 ### Example [data](https://github.com/SeppeOngena/Decentralized-House-Model/tree/main/Example%20Data) and [results](https://github.com/SeppeOngena/Decentralized-House-Model/tree/main/Example%20Results) included
-### View the [manual](https://github.com/SeppeOngena/Decentralized-House-Model/blob/main/Manual.pdf) for detailed walktrough of app, and example workflow
+### View the [manual](https://github.com/SeppeOngena/Decentralized-House-Model/blob/main/Manual.pdf) for detailed walktrough of app and example workflow
