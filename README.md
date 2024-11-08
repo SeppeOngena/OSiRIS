@@ -4,7 +4,7 @@
   <img src="https://github.com/SeppeOngena/Decentralized-House-Model/blob/main/Example%20Results/Schemes/8%20-%20Extreme%20dec.%20%2B%20BW%20reuse.png" alt="Dynamic scheme" width="50%"/>
 </p>
 
-## Simulation model Features:
+## Simulation model features:
 - High temporal resolution, enabled by diurnal water usage patterns\
   \
   <img src="https://github.com/user-attachments/assets/025d5782-76b1-46bb-ae1d-8a3f137388a3" alt="Diurnal patterns" width="30%"/>
