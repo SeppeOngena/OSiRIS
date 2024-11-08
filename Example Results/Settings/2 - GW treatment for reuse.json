@@ -1,0 +1,228 @@
+{
+    "InputData": {
+        "TimeZoneArea_DropDown": "Europe",
+        "TimeZone_DropDown": "Europe/Brussels",
+        "WaterOptions": {
+            "RainDataPath": "",
+            "Decimalsep": ",",
+            "Delimiter": ";",
+            "tformat": "yyyy-MM-dd'T'HH:mm:ss.SSSZZZZZ"
+        },
+        "SolarOptions": {
+            "UsePVModel": true,
+            "PVModelSettings": {
+                "ClouddataTable": {
+                    "Clear": [
+                        1.4,
+                        1.9,
+                        3.1,
+                        2.6,
+                        2.7,
+                        2.1,
+                        2.1,
+                        2.7,
+                        2.7,
+                        1.8,
+                        0.7,
+                        1.3
+                    ],
+                    "Cloudy": [
+                        22.0,
+                        19.2,
+                        22.4,
+                        24.8,
+                        24.6,
+                        25.5,
+                        26.4,
+                        27.0,
+                        25.3,
+                        25.6,
+                        23.1,
+                        20.9
+                    ],
+                    "Overcast": [
+                        7.7,
+                        7.1,
+                        5.6,
+                        2.5,
+                        3.7,
+                        2.4,
+                        2.5,
+                        1.2,
+                        2.0,
+                        3.6,
+                        6.2,
+                        8.7
+                    ]
+                },
+                "alpha": 0.0,
+                "beta": 40.0,
+                "rho": 0.2,
+                "Tlk": 3.0
+            },
+            "SolarFile": {
+                "SolarDataPath": "",
+                "DecimalsepSolar": ".",
+                "DelimiterSolar": ",",
+                "tformatSolar": "yyyyMMdd:HHmm"
+            }
+        }
+    },
+    "ModelSettings": {
+        "HouseCharacteristics": {
+            "IE": 2.3,
+            "A_roof": 106.0,
+            "phi": 51.001111,
+            "lambda": 4.084444,
+            "z": 5.0,
+            "RenewableEnergySettings": {
+                "RenewableEnergy": true,
+                "n_panel": 1.0,
+                "UseBattery": true,
+                "C_battery": 2.0
+            },
+            "Advanced": {
+                "PhotoVoltaics": {
+                    "eta_heat": 0.9,
+                    "eta_inverter": 0.95,
+                    "eta_battery": 0.9,
+                    "Wp_panel": 300.0
+                },
+                "eta_rain": 0.81,
+                "DailyFlows": {
+                    "Q_TL_lpd": 21.3,
+                    "Q_BT_lpd": 5.1,
+                    "Q_SH_lpd": 23.8,
+                    "Q_BS_lpd": 9.4,
+                    "Q_WM_lpd": 16.6,
+                    "Q_DW_lpd": 2.3,
+                    "Q_KS_lpd": 17.1,
+                    "Q_CL_lpd": 5.8,
+                    "Q_GA_lpd": 7.4
+                },
+                "PollutantConcentrations": {
+                    "c_tap": 70.0,
+                    "c_rain": 7.7,
+                    "c_TL_tap": 100.0,
+                    "c_BT_tap": 166.0,
+                    "c_SH_tap": 284.0,
+                    "c_BS_tap": 237.0,
+                    "c_WM_tap": 450.0,
+                    "c_DW_tap": 716.0,
+                    "c_KS_tap": 223.0,
+                    "c_CL_tap": 600.0
+                }
+            }
+        },
+        "Tanks": {
+            "V_RW_min": 0.5,
+            "c_PGW_max": 350.0,
+            "Used": {
+                "Set_PW_tank": false,
+                "Set_RW_tank": true,
+                "Set_PGW_tank": true,
+                "Set_GW_tank": true,
+                "Set_BW_tank": true
+            },
+            "NominalVolumes": {
+                "V_PW_tank": 1.0,
+                "V_RW_tank": 2.25,
+                "V_PGW_tank": 1.0,
+                "V_GW_tank": 0.5,
+                "V_BW_tank": 1.0
+            },
+            "Prefilled": {
+                "PW_prefill": true,
+                "RW_prefill": true,
+                "PGW_prefill": true,
+                "GW_prefill": false,
+                "BW_prefill": false
+            },
+            "InitialVolume": {
+                "V_PW_init": 1.0,
+                "V_RW_init": 10.0,
+                "V_PGW_init": 1.0,
+                "V_GW_init": 0.0,
+                "V_BW_init": 0.0
+            }
+        },
+        "TechnologicalSpecifications": {
+            "Technologies": {
+                "UseTechnology": {
+                    "Sel_RO_GWBW": false,
+                    "Sel_RO_PW": false,
+                    "Sel_MBR_GW": true,
+                    "Sel_MBR_BW": false
+                },
+                "DesignFlow": {
+                    "Q_ROGWBW": 1.2,
+                    "Q_ROPW": 1.2,
+                    "Q_MBRBW": 1.2,
+                    "Q_MBRGW": 1.2
+                },
+                "EnergyUse": {
+                    "E_ROGWBW": 2.0,
+                    "E_ROPW": 2.0,
+                    "E_MBRGW": 1.85,
+                    "E_MBRBW": 0.5
+                },
+                "WaterRecovery": {
+                    "r_ROGWBW": 0.6,
+                    "r_ROPW": 0.8,
+                    "r_MBRGW": 0.9,
+                    "r_MBRBW": 0.9
+                },
+                "RemovalRejection": {
+                    "R_ROGWBW": 0.95,
+                    "R_ROPW": 0.95,
+                    "R_MBRGW": 0.0,
+                    "R_MBRBW": 0.0
+                },
+                "RemovalDegradation": {
+                    "D_ROGWBW": 0.0,
+                    "D_ROPW": 0.0,
+                    "D_MBRGW": 0.0,
+                    "D_MBRBW": 0.0
+                },
+                "Pumps": {
+                    "Sel_pump": true,
+                    "Q_pump": 1.2,
+                    "E_pump": 0.2
+                },
+                "R_GW": 0.05,
+                "R_BW": 0.05
+            }
+        },
+        "Reuse": {
+            "General": {
+                "Set_BW_reuse": false,
+                "Set_infil_GW_DropDown": "Send to sewer",
+                "Set_infil_BW_DropDown": "Send to sewer",
+                "Set_infil_RW_DropDown": "Infiltrate",
+                "Set_infil_purge_DropDown": "Send to sewer",
+                "Set_RO_purge": false,
+                "Set_infil_PGW": false
+            },
+            "WaterQualityUsed": {
+                "TL_DropDown": "Purified greywater",
+                "BT_DropDown": "City water",
+                "SH_DropDown": "City water",
+                "BS_DropDown": "City water",
+                "WM_DropDown": "Purified greywater",
+                "DW_DropDown": "City water",
+                "KS_DropDown": "City water",
+                "CL_DropDown": "Purified greywater",
+                "GA_DropDown": "Purified greywater"
+            },
+            "WastewaterToGW": {
+                "Sel_BT": "1",
+                "Sel_SH": "1",
+                "Sel_BS": "1",
+                "Sel_WM": "1",
+                "Sel_DW": "1",
+                "Sel_KS": "1",
+                "Sel_CL": "0"
+            }
+        }
+    }
+}
