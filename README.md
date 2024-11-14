@@ -31,7 +31,7 @@
   - Battery can be used in conjunction with solar panels
   - Grid electricity is used as back-up
   - Built-in solar insolation, cloud, and photovoltaic models if data is unavailable
-- Simulation of garden irrigation based on solar irradiance an precipitation
+- Simulation of garden irrigation based on solar irradiance and precipitation
 
 ## Standalone app with user interface
 - Scenario framework: Create different settings combinations or load from a file, simulate in bulk, and save settings, scheme, KPI, and data to files\
