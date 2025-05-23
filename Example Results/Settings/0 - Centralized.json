@@ -77,16 +77,15 @@
             "z": 5.0,
             "RenewableEnergySettings": {
                 "RenewableEnergy": false,
-                "n_panel": 2.0,
+                "kWp_panels": 0.5,
                 "UseBattery": true,
-                "C_battery": 2.7
+                "C_battery": 2.0
             },
             "Advanced": {
                 "PhotoVoltaics": {
                     "eta_heat": 0.9,
                     "eta_inverter": 0.95,
-                    "eta_battery": 0.9,
-                    "Wp_panel": 300.0
+                    "eta_battery": 0.9
                 },
                 "eta_rain": 0.81,
                 "DailyFlows": {
@@ -111,7 +110,8 @@
                     "c_DW_tap": 716.0,
                     "c_KS_tap": 223.0,
                     "c_CL_tap": 600.0
-                }
+                },
+                "IrrigationThreshold": 5.0
             }
         },
         "Tanks": {
