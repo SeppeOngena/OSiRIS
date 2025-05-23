@@ -1,5 +1,6 @@
-# Decentralized House Model
-### Simulate and evaluate the effect of on-site water reuse interventions on water and pollutant flows in a household, building, or community!
+# OSiRIS
+## On-Site water Reuse Instant-Simulator
+### Simulate and evaluate the effect of on-site water reuse interventions on energy use and water and pollutant flows in a household, building, or community!
 <p align="center">
   <img src="https://github.com/SeppeOngena/Decentralized-House-Model/blob/main/Example%20Results/Schemes/8%20-%20Extreme%20dec.%20%2B%20BW%20reuse.png" alt="Dynamic scheme" width="50%"/>
 </p>
