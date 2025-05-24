@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\OSiRIS.styles.css",
+      "PackagePath": "staticwebassets\\OSiRIS.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.OSiRIS.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.OSiRIS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.build.OSiRIS.props",
+      "PackagePath": "build\\OSiRIS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildMultiTargeting.OSiRIS.props",
+      "PackagePath": "buildMultiTargeting\\OSiRIS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildTransitive.OSiRIS.props",
+      "PackagePath": "buildTransitive\\OSiRIS.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

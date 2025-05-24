@@ -1,0 +1,291 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|c:\\users\\seppe\\onedrive - ugentbe\\side projects\\github\\osiris\\src\\osiris\\osiris.shared\\pages\\datasets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|solutionrelative:osiris.shared\\pages\\datasets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|c:\\users\\seppe\\onedrive - ugentbe\\side projects\\github\\osiris\\src\\osiris\\osiris.shared\\pages\\classicmode.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|solutionrelative:osiris.shared\\pages\\classicmode.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|c:\\users\\seppe\\onedrive - ugentbe\\side projects\\github\\osiris\\src\\osiris\\osiris.shared\\services\\idataset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|solutionrelative:osiris.shared\\services\\idataset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79807C9A-FEE3-4008-95CA-26C63426CD39}|OSiRIS\\OSiRIS.csproj|c:\\users\\seppe\\onedrive - ugentbe\\side projects\\github\\osiris\\src\\osiris\\osiris\\services\\formfactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79807C9A-FEE3-4008-95CA-26C63426CD39}|OSiRIS\\OSiRIS.csproj|solutionrelative:osiris\\services\\formfactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|c:\\users\\seppe\\onedrive - ugentbe\\side projects\\github\\osiris\\src\\osiris\\osiris.shared\\services\\iformfactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|solutionrelative:osiris.shared\\services\\iformfactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|c:\\users\\seppe\\onedrive - ugentbe\\side projects\\github\\osiris\\src\\osiris\\osiris.shared\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|solutionrelative:osiris.shared\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|c:\\users\\seppe\\onedrive - ugentbe\\side projects\\github\\osiris\\src\\osiris\\osiris.shared\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|solutionrelative:osiris.shared\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79807C9A-FEE3-4008-95CA-26C63426CD39}|OSiRIS\\OSiRIS.csproj|c:\\users\\seppe\\onedrive - ugentbe\\side projects\\github\\osiris\\src\\osiris\\osiris\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79807C9A-FEE3-4008-95CA-26C63426CD39}|OSiRIS\\OSiRIS.csproj|solutionrelative:osiris\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21AAA087-F03D-43F2-AD38-88A125FFD93D}|OSiRIS.Web\\OSiRIS.Web.csproj|c:\\users\\seppe\\onedrive - ugentbe\\side projects\\github\\osiris\\src\\osiris\\osiris.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21AAA087-F03D-43F2-AD38-88A125FFD93D}|OSiRIS.Web\\OSiRIS.Web.csproj|solutionrelative:osiris.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79807C9A-FEE3-4008-95CA-26C63426CD39}|OSiRIS\\OSiRIS.csproj|c:\\users\\seppe\\onedrive - ugentbe\\side projects\\github\\osiris\\src\\osiris\\osiris\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{79807C9A-FEE3-4008-95CA-26C63426CD39}|OSiRIS\\OSiRIS.csproj|solutionrelative:osiris\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|c:\\users\\seppe\\onedrive - ugentbe\\side projects\\github\\osiris\\src\\osiris\\osiris.shared\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|solutionrelative:osiris.shared\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|c:\\users\\seppe\\onedrive - ugentbe\\side projects\\github\\osiris\\src\\osiris\\osiris.shared\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|solutionrelative:osiris.shared\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|c:\\users\\seppe\\onedrive - ugentbe\\side projects\\github\\osiris\\src\\osiris\\osiris.shared\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{414B6DB7-592C-45DE-AEA0-51D514B8B9A9}|OSiRIS.Shared\\OSiRIS.Shared.csproj|solutionrelative:osiris.shared\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79807C9A-FEE3-4008-95CA-26C63426CD39}|OSiRIS\\OSiRIS.csproj|c:\\users\\seppe\\onedrive - ugentbe\\side projects\\github\\osiris\\src\\osiris\\osiris\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79807C9A-FEE3-4008-95CA-26C63426CD39}|OSiRIS\\OSiRIS.csproj|solutionrelative:osiris\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\OSiRIS\\src\\OSiRIS_App_Blazor\\OSiRIS_App_Blazor.Shared\\Layout\\MainLayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79807C9A-FEE3-4008-95CA-26C63426CD39}|OSiRIS\\OSiRIS.csproj|c:\\users\\seppe\\onedrive - ugentbe\\side projects\\github\\osiris\\src\\osiris\\osiris\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79807C9A-FEE3-4008-95CA-26C63426CD39}|OSiRIS\\OSiRIS.csproj|solutionrelative:osiris\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IDataset.cs",
+              "DocumentMoniker": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Services\\IDataset.cs",
+              "RelativeDocumentMoniker": "OSiRIS.Shared\\Services\\IDataset.cs",
+              "ToolTip": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Services\\IDataset.cs",
+              "RelativeToolTip": "OSiRIS.Shared\\Services\\IDataset.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T15:10:48.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormFactor.cs",
+              "DocumentMoniker": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS\\Services\\FormFactor.cs",
+              "RelativeDocumentMoniker": "OSiRIS\\Services\\FormFactor.cs",
+              "ToolTip": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS\\Services\\FormFactor.cs",
+              "RelativeToolTip": "OSiRIS\\Services\\FormFactor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T15:10:17.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IFormFactor.cs",
+              "DocumentMoniker": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Services\\IFormFactor.cs",
+              "RelativeDocumentMoniker": "OSiRIS.Shared\\Services\\IFormFactor.cs",
+              "ToolTip": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Services\\IFormFactor.cs",
+              "RelativeToolTip": "OSiRIS.Shared\\Services\\IFormFactor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T15:08:21.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Datasets.razor",
+              "DocumentMoniker": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Pages\\Datasets.razor",
+              "RelativeDocumentMoniker": "OSiRIS.Shared\\Pages\\Datasets.razor",
+              "ToolTip": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Pages\\Datasets.razor",
+              "RelativeToolTip": "OSiRIS.Shared\\Pages\\Datasets.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T14:18:08.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "OSiRIS.Shared\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Pages\\Home.razor",
+              "RelativeToolTip": "OSiRIS.Shared\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T14:18:08.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClassicMode.razor",
+              "DocumentMoniker": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Pages\\ClassicMode.razor",
+              "RelativeDocumentMoniker": "OSiRIS.Shared\\Pages\\ClassicMode.razor",
+              "ToolTip": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Pages\\ClassicMode.razor",
+              "RelativeToolTip": "OSiRIS.Shared\\Pages\\ClassicMode.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T14:16:52.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Web\\Components\\App.razor",
+              "RelativeDocumentMoniker": "OSiRIS.Web\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Web\\Components\\App.razor",
+              "RelativeToolTip": "OSiRIS.Web\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T14:12:02.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "OSiRIS.Shared\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "OSiRIS.Shared\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-24T13:45:51.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "OSiRIS.Shared\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "OSiRIS.Shared\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T12:43:41.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS\\App.xaml",
+              "RelativeDocumentMoniker": "OSiRIS\\App.xaml",
+              "ToolTip": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS\\App.xaml",
+              "RelativeToolTip": "OSiRIS\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-24T12:48:04.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "OSiRIS\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS\\wwwroot\\app.css",
+              "RelativeToolTip": "OSiRIS\\wwwroot\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-24T12:47:18.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\OSiRIS\\src\\OSiRIS_App_Blazor\\OSiRIS_App_Blazor.Shared\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OSiRIS\\src\\OSiRIS_App_Blazor\\OSiRIS_App_Blazor.Shared\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\OSiRIS\\src\\OSiRIS_App_Blazor\\OSiRIS_App_Blazor.Shared\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "..\\..\\..\\..\\OSiRIS\\src\\OSiRIS_App_Blazor\\OSiRIS_App_Blazor.Shared\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T12:58:49.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "OSiRIS.Shared\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "OSiRIS.Shared\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T12:43:34.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "OSiRIS.Shared\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS.Shared\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "OSiRIS.Shared\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-24T13:27:13.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "OSiRIS\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS\\MauiProgram.cs",
+              "RelativeToolTip": "OSiRIS\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:01:29.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS\\MainPage.xaml",
+              "RelativeDocumentMoniker": "OSiRIS\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\seppe\\OneDrive - ugentbe\\Side Projects\\GitHub\\OSiRIS\\src\\OSiRIS\\OSiRIS\\MainPage.xaml",
+              "RelativeToolTip": "OSiRIS\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-24T12:49:06.743Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

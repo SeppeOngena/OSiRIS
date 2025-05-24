@@ -1,0 +1,313 @@
+﻿@page "/ClassicMode"
+
+<PageTitle>OSiRIS classic mode</PageTitle>
+
+<FluentLayout Style="margin-top: 10px;">
+<FluentStack Orientation="Orientation.Vertical" VerticalAlignment="VerticalAlignment.Center" VerticalGap="20"> 
+        <!--<Menu DockPanel.Dock="Top">
+            <MenuItem Header="App">
+                <MenuItem Header="Reinitialize to default"></MenuItem>
+                <MenuItem Header="Exit"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="File">
+                <MenuItem Header="Load data"></MenuItem>
+                <MenuItem Header="Load settings file"></MenuItem>
+                <MenuItem Header="Save all scenarios to file"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Simulation">
+                <MenuItem Header="Run current"></MenuItem>
+                <MenuItem Header="Bulk run all"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Debug">
+                <MenuItem Header="Exit debug mode"></MenuItem>
+                <MenuItem Header="Reload plots"></MenuItem>
+                <MenuItem Header="RNG" IsCheckable="True"></MenuItem>
+            </MenuItem>
+        </Menu>
+        -->
+
+        <FluentStack Orientation="Orientation.Horizontal" VerticalAlignment="VerticalAlignment.Center">
+            <FluentSelect Placeholder="Select a scenario..." Label="Current scenario" TOption="string"/>
+        </FluentStack>
+
+        <FluentMultiSplitter Height="100%">
+            <FluentMultiSplitterPane Size="50%" Collapsible="true">
+                <FluentHeader>User input</FluentHeader>
+                        <FluentTabs>
+                            <FluentTab Label="Scenario input data" Id="tab-1">
+                                Tab one content. This is for testing.
+                            </FluentTab>
+                            <FluentTab Label="Scenario settings" Id="tab-2">
+                                    Tab two content. This is for testing.
+                            </FluentTab>
+                            <FluentTab Label="Scenario simulation and management" Id="tab-3">
+                                Tab three content. This is for testing.
+                            </FluentTab>
+                            <FluentTab Label="KPI info" Id="tab-4">
+                                Tab three content. This is for testing.
+                            </FluentTab>
+                        </FluentTabs> 
+            </FluentMultiSplitterPane>
+            <FluentMultiSplitterPane Size="50%" Collapsible="true">
+                <FluentHeader>Results view</FluentHeader>
+                <FluentTabs>
+                    <FluentTab Label="Scheme" Id="tab-1">
+                        <img src="images/SchemeDefault.png"/>
+                    </FluentTab>
+                    <FluentTab Label="KPI" Id="tab-2">
+                            Tab two content. This is for testing.
+                    </FluentTab>
+                    <FluentTab Label="Water tanks" Id="tab-3">
+                        Tab three content. This is for testing.
+                    </FluentTab>
+                    <FluentTab Label="Energy" Id="tab-4">
+                        Tab three content. This is for testing.
+                    </FluentTab>
+                    <FluentTab Label="Balances" Id="tab-5">
+                        Tab three content. This is for testing.
+                    </FluentTab>
+                </FluentTabs>
+            </FluentMultiSplitterPane>
+        </FluentMultiSplitter>
+        <!--
+        <FluentGrid VerticalAlignment="Stretch">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3.5*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TabControl Grid.Row="0" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                <TabItem Header="Scenario input data">
+                    <StackPanel CanVerticallyScroll="True" Margin="20,20,20,-4" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                        <StackPanel Orientation="Horizontal" >
+                            <Label Content="Time zone"/>
+                            <ComboBox SelectedIndex="0">
+                                <ComboBoxItem Content="Africa"/>
+                                <ComboBoxItem Content="Asia"/>
+                                <ComboBoxItem Content="Europe"/>
+                                <ComboBoxItem Content="America"/>
+                                <ComboBoxItem Content="Atlantic"/>
+                                <ComboBoxItem Content="Indian"/>
+                                <ComboBoxItem Content="Antarctica"/>
+                                <ComboBoxItem Content="Australia"/>
+                                <ComboBoxItem Content="Pacific"/>
+                                <ComboBoxItem Content="Arctic"/>
+                                <ComboBoxItem Content="Etc"/>
+                                <ComboBoxItem Content="All"/>
+                            </ComboBox>
+                            <ComboBox MinWidth="250"/>
+                        </StackPanel>
+                        <Label Foreground="#0073bd" Content="Precipitation data" FontSize="24" Margin="0 20 0 0"/>
+                        <StackPanel Orientation="Horizontal" >
+                            <TextBox TextWrapping="Wrap" Text="" MinWidth="300" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" MaxWidth="798" VerticalAlignment="Center"/>
+                            <Button Content="Browse file" />
+                        </StackPanel>
+                        <TextBlock Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="6" Margin="0,10,0,0" >
+                            <Run Text="Data should be a .csv file obtained from "/>
+                            <Hyperlink NavigateUri="https://www.waterinfo.be/download/c4bc2c28-0251-40e3-8ecb-a139298597aa" ToolTip="Click to open url.&#x0a;&#x0a;WaterInfo settings:&#x0a;- Use url web service from link&#x0a;- Use ''Timeseriesgroup_id = 192896'' (15min resolution)">
+                                    Waterinfo.be
+                            </Hyperlink>
+                            <Run Text=" or in a similar format"  ToolTip="File format:&#x0a; - Metadata header rows&#x0a; - Followed by (at least) two columns for the data:&#x0a;     - #Timestamp: first column, in time format&#x0a;     - Value: precipitation in mm&#x0a;- Followed by optional footer rows"/>
+                        </TextBlock>
+                        <Expander Width="auto" HorizontalContentAlignment="Stretch" Margin="0,10,0,0">
+                            <Expander.Header>
+                                <BulletDecorator>
+                                    <TextBlock><Run Text="File settings"/></TextBlock>
+                                </BulletDecorator>
+                            </Expander.Header>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition Width="auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+
+                                <Label Grid.Row="0" Grid.Column="0" Content="Delimiter"/>
+                                <ComboBox  Grid.Row="0" Grid.Column="1" SelectedIndex="0" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                    <ComboBoxItem Content=","/>
+                                    <ComboBoxItem Content=";"/>
+                                    <ComboBoxItem Content="tab"/>
+                                    <ComboBoxItem Content="space"/>
+                                </ComboBox>
+                                <Label  Grid.Row="1" Grid.Column="0" Content="Decimal sep."/>
+                                <ComboBox  Grid.Row="1" Grid.Column="1" SelectedIndex="0" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                    <ComboBoxItem Content="."/>
+                                    <ComboBoxItem Content=","/>
+                                </ComboBox>
+                                <Label  Grid.Row="2" Grid.Column="0" Content="Time format"/>
+                                <TextBox  Grid.Row="2" Grid.Column="1" Text="yyyy-MM-dd'T'HH:mm:ss.SSSZZZZZ" VerticalAlignment="Center"/>
+                            </Grid>
+                        </Expander>
+
+                        <Label Foreground="#0073bd" Content="Renewable energy data" FontSize="24" Margin="0 20 0 0"/>
+                        <StackPanel Orientation="Horizontal">
+                            <CheckBox x:Name="UsePVModel" Content="Use photovoltaic panel model"/>
+                        </StackPanel>
+                        <Canvas>
+                            <StackPanel x:Name="SolarDataSettings" Visibility="Hidden">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBox TextWrapping="Wrap" Text="" MinWidth="300" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" MaxWidth="798" VerticalAlignment="Center"/>
+                                    <Button Content="Browse file" />
+                                </StackPanel>
+                                <TextBlock Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="6" Margin="0,10,0,0" >
+                                    <Run Text="Data should be a .csv file obtained from "/>
+                                    <Hyperlink NavigateUri="https://re.jrc.ec.europa.eu/pvg_tools/en/" ToolTip="Click to open url.&#x0a;PVGIS settings:&#x0a;- Hourly data&#x0a;- Fixed mounting (fill in slope and azimuth)&#x0a;- No PV power">
+                                            PVGIS
+                                    </Hyperlink>
+                                    <Run Text=" or in a similar format"  ToolTip="File format:&#x0a;- Metadata header rows&#x0a;- Followed by (at least) two columns for the data;&#x0a;     - time:   first column, in time format&#x0a;     - G(i):    Global irradiance on the inclined plane in W/m²&#x0a;- Followed by optional footer rows"/>
+                                </TextBlock>
+                                <Expander Width="auto" HorizontalContentAlignment="Stretch" Margin="0,10,0,0">
+                                    <Expander.Header>
+                                        <BulletDecorator>
+                                            <TextBlock><Run Text="File settings"/></TextBlock>
+                                        </BulletDecorator>
+                                    </Expander.Header>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="auto"/>
+                                            <ColumnDefinition Width="auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="auto"/>
+                                            <RowDefinition Height="auto"/>
+                                            <RowDefinition Height="auto"/>
+                                        </Grid.RowDefinitions>
+
+                                        <Label Grid.Row="0" Grid.Column="0" Content="Delimiter"/>
+                                        <ComboBox  Grid.Row="0" Grid.Column="1" SelectedIndex="0" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                            <ComboBoxItem Content=","/>
+                                            <ComboBoxItem Content=";"/>
+                                            <ComboBoxItem Content="tab"/>
+                                            <ComboBoxItem Content="space"/>
+                                        </ComboBox>
+                                        <Label  Grid.Row="1" Grid.Column="0" Content="Decimal sep."/>
+                                        <ComboBox  Grid.Row="1" Grid.Column="1" SelectedIndex="0" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                            <ComboBoxItem Content="."/>
+                                            <ComboBoxItem Content=","/>
+                                        </ComboBox>
+                                        <Label  Grid.Row="2" Grid.Column="0" Content="Time format"/>
+                                        <TextBox  Grid.Row="2" Grid.Column="1" Text="yyyy-MM-dd'T'HH:mm:ss.SSSZZZZZ" VerticalAlignment="Center"/>
+                                    </Grid>
+                                </Expander>
+
+                            </StackPanel>
+                            <Grid x:Name="SolarModelSettings">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition Width="auto"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Grid.Column="0">
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+                                        <Label Content="Panel slope (degrees)"/>
+                                        <TextBox Text="" Width="50" Margin="10,0,0,0"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                        <Label Content="Panel tilt angle (degrees)" Margin="10,0,0,0"/>
+                                        <TextBox Text="" Width="50" ToolTip="South = 0, positive towards West"/>
+                                    </StackPanel>
+                                    <Expander Margin="0,20,0,0">
+                                        <Expander.Header>
+                                            <Label Content ="Advanced settings"/>
+                                        </Expander.Header>
+                                        <Expander.Content>
+                                            <StackPanel>
+                                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                                    <controls:FormulaControl Formula="T_{LK}" Scale="12" VerticalAlignment="Bottom"/>
+                                                    <TextBlock Margin="5,0,0,0">Linke turbidity factor</TextBlock>
+                                                    <TextBox Width="50" Margin="10,0,0,0"/>
+                                                </StackPanel>
+                                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                                    <controls:FormulaControl Formula="\rho" Scale="12" VerticalAlignment="Bottom"/>
+                                                    <TextBlock Margin="5,0,0,0">ground reflectivity</TextBlock>
+                                                    <TextBox Width="50" Margin="10,0,0,0"/>
+                                                </StackPanel>
+                                            </StackPanel>
+                                        </Expander.Content>
+                                    </Expander>
+                                </StackPanel>
+                                <DockPanel Grid.Column="1" Margin="20,0,0,0">
+                                    <Label Content="Cloud data table (days or %)" DockPanel.Dock="Top"></Label>
+                                    <DataGrid DockPanel.Dock="Top"></DataGrid>
+                                </DockPanel>
+
+                            </Grid>
+                        </Canvas>
+                    </StackPanel>
+                </TabItem>
+                <TabItem Header="Scenario settings">
+                    <TabControl>
+                        <TabItem Header="House characteristics">
+                            <Grid Margin="20,20,20,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+                                <DockPanel Grid.Row="0"  Grid.Column="0">
+                                    <Label Content="General" FontSize="18" Foreground="#0073bd" DockPanel.Dock="Top"/>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" DockPanel.Dock="Top">
+                                        <Label Content="Number of persons in household"/>
+                                        
+                                    </StackPanel>
+                                </DockPanel>
+                                <DockPanel Grid.Row ="0" Grid.Column="1">
+                                    <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+                                        <CheckBox VerticalAlignment="Center"/>
+                                        <Label Content="Renewable energy" FontSize="18" Foreground="#0073bd" DockPanel.Dock="Top"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" DockPanel.Dock="Top">
+                                        <Label Content="Number of persons in household"/>
+                                        <TextBox></TextBox>
+                                    </StackPanel>
+                                </DockPanel>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Tanks"></TabItem>
+                        <TabItem Header="Technological specifications"></TabItem>
+                        <TabItem Header="Reuse"></TabItem>
+                    </TabControl>
+                </TabItem>
+                <TabItem Header="Scenario simulation and management">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem Header="KPI info">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem Header="Publications and partners">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+            </TabControl>
+            <GridSplitter Grid.Column="0"
+                      Grid.Row="0"
+                      Grid.RowSpan="2"
+                      HorizontalAlignment="Right"
+                      VerticalAlignment="Stretch"
+                      ShowsPreview="True"
+                      Width="5" />
+            <GridSplitter Grid.Column="0"
+                      Grid.Row="1"
+                      HorizontalAlignment="Stretch"
+                      VerticalAlignment="Top"
+                      ShowsPreview="True"
+                      ResizeDirection="Rows"
+                      Height ="5" />
+
+
+    </FluentGrid>-->
+    </FluentStack>
+</FluentLayout>
+
+@code {
+
+}

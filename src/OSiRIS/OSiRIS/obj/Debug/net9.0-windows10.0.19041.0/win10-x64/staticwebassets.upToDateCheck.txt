@@ -1,0 +1,4 @@
+wwwroot\app.css
+wwwroot\index.html
+C:\Users\seppe\OneDrive - ugentbe\Side Projects\GitHub\OSiRIS\src\OSiRIS\OSiRIS\wwwroot\app.css
+C:\Users\seppe\OneDrive - ugentbe\Side Projects\GitHub\OSiRIS\src\OSiRIS\OSiRIS\wwwroot\index.html

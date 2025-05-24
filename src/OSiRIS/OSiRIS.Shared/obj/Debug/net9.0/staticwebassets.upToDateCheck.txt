@@ -1,0 +1,9 @@
+wwwroot\app.css
+wwwroot\bootstrap\bootstrap.min.css
+wwwroot\bootstrap\bootstrap.min.css.map
+wwwroot\favicon.png
+wwwroot\images\favicon.png
+wwwroot\images\SchemeDefault.png
+C:\Users\seppe\OneDrive - ugentbe\Side Projects\GitHub\OSiRIS\src\OSiRIS\OSiRIS.Shared\wwwroot\app.css
+C:\Users\seppe\OneDrive - ugentbe\Side Projects\GitHub\OSiRIS\src\OSiRIS\OSiRIS.Shared\wwwroot\bootstrap\bootstrap.min.css
+C:\Users\seppe\OneDrive - ugentbe\Side Projects\GitHub\OSiRIS\src\OSiRIS\OSiRIS.Shared\wwwroot\bootstrap\bootstrap.min.css.map
