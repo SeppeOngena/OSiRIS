@@ -1,7 +1,11 @@
 {
-    "InputData": {
-        "TimeZoneArea_DropDown": "Europe",
-        "TimeZone_DropDown": "Europe/Brussels",
+    "Dataset": {
+        "phi": 51.001111,
+        "lambda": 4.084444,
+        "z": 5.0,
+        "dt": 900.0,
+        "IrrigationThreshold": 5.0,
+        "TimeZone": "Europe/Brussels",
         "WaterOptions": {
             "RainDataPath": "",
             "Decimalsep": ",",
@@ -13,46 +17,46 @@
             "PVModelSettings": {
                 "ClouddataTable": {
                     "Clear": [
-                        1.4,
-                        1.9,
-                        3.1,
-                        2.6,
-                        2.7,
-                        2.1,
-                        2.1,
-                        2.7,
-                        2.7,
-                        1.8,
-                        0.7,
-                        1.3
+                        3.2,
+                        3.3,
+                        4.4,
+                        4.8,
+                        5.1,
+                        4.7,
+                        5.8,
+                        5.6,
+                        5.9,
+                        5.4,
+                        2.9,
+                        2.2
                     ],
                     "Cloudy": [
-                        22.0,
-                        19.2,
-                        22.4,
-                        24.8,
-                        24.6,
-                        25.5,
-                        26.4,
-                        27.0,
-                        25.3,
-                        25.6,
-                        23.1,
-                        20.9
+                        9.2,
+                        10.9,
+                        13.3,
+                        15.2,
+                        16.5,
+                        16.8,
+                        18.9,
+                        19.0,
+                        15.4,
+                        14.5,
+                        10.4,
+                        9.0
                     ],
                     "Overcast": [
-                        7.7,
-                        7.1,
-                        5.6,
-                        2.5,
-                        3.7,
-                        2.4,
-                        2.5,
-                        1.2,
-                        2.0,
-                        3.6,
-                        6.2,
-                        8.7
+                        18.5,
+                        14.1,
+                        13.5,
+                        10.0,
+                        9.4,
+                        8.5,
+                        6.3,
+                        6.4,
+                        8.7,
+                        11.1,
+                        16.7,
+                        19.8
                     ]
                 },
                 "alpha": 0.0,
@@ -68,160 +72,523 @@
             }
         }
     },
-    "ModelSettings": {
-        "HouseCharacteristics": {
-            "IE": 2.3,
-            "A_roof": 106.0,
-            "phi": 51.001111,
-            "lambda": 4.084444,
-            "z": 5.0,
-            "RenewableEnergySettings": {
-                "RenewableEnergy": true,
-                "kWp_panels": 0.5,
-                "UseBattery": true,
-                "C_battery": 2.0
+    "Scenario": {
+        "Tanks": {
+            "RW": {
+                "V_tank": 10.0,
+                "prefill": true,
+                "V_init": 10.0,
+                "c_init": 70.0,
+                "R": 0.0
             },
-            "Advanced": {
-                "PhotoVoltaics": {
-                    "eta_heat": 0.9,
-                    "eta_inverter": 0.95,
-                    "eta_battery": 0.9
-                },
-                "eta_rain": 0.81,
-                "DailyFlows": {
-                    "Q_TL_lpd": 21.3,
-                    "Q_BT_lpd": 5.1,
-                    "Q_SH_lpd": 23.8,
-                    "Q_BS_lpd": 9.4,
-                    "Q_WM_lpd": 16.6,
-                    "Q_DW_lpd": 2.3,
-                    "Q_KS_lpd": 17.1,
-                    "Q_CL_lpd": 5.8,
-                    "Q_GA_lpd": 7.4
-                },
-                "PollutantConcentrations": {
-                    "c_tap": 70.0,
-                    "c_rain": 7.7,
-                    "c_TL_tap": 100.0,
-                    "c_BT_tap": 166.0,
-                    "c_SH_tap": 284.0,
-                    "c_BS_tap": 237.0,
-                    "c_WM_tap": 450.0,
-                    "c_DW_tap": 716.0,
-                    "c_KS_tap": 223.0,
-                    "c_CL_tap": 600.0
-                },
+            "PW": {
+                "V_tank": 1.0,
+                "prefill": true,
+                "V_init": 1.0,
+                "c_init": 70.0,
+                "R": 0.0
+            },
+            "PGW": {
+                "V_tank": 1.0,
+                "prefill": true,
+                "V_init": 1.0,
+                "c_init": 70.0,
+                "R": 0.0
+            },
+            "GW": {
+                "V_tank": 0.5,
+                "prefill": false,
+                "V_init": 0.0,
+                "c_init": 0.0,
+                "R": 0.05
+            },
+            "BW": {
+                "V_tank": 1.0,
+                "prefill": false,
+                "V_init": 0.0,
+                "c_init": 0.0,
+                "R": 0.05
+            }
+        },
+        "Technologies": {
+            "PumpRW": {
+                "Type": "Pump",
+                "Q": 15.0,
+                "E": 1.5
+            },
+            "PumpPW": {
+                "Type": "Pump",
+                "Q": 15.0,
+                "E": 1.5
+            },
+            "PumpPGW": {
+                "Type": "Pump",
+                "Q": 15.0,
+                "E": 1.5
+            },
+            "PumpGW": {
+                "Type": "Pump",
+                "Q": 15.0,
+                "E": 1.5
+            },
+            "PumpBW": {
+                "Type": "Pump",
+                "Q": 15.0,
+                "E": 1.5
+            },
+            "ROGWBW": {
+                "Type": "Treatment",
+                "Q": 1.2,
+                "E": 2.5,
+                "r": 0.7,
+                "R": 0.95,
+                "D": 0.0
+            },
+            "ROPW": {
+                "Type": "Treatment",
+                "Q": 0.6,
+                "E": 1.5,
+                "r": 0.8,
+                "R": 0.95,
+                "D": 0.0
+            },
+            "MBRBW": {
+                "Type": "Treatment",
+                "Q": 1.2,
+                "E": 0.5,
+                "r": 0.9,
+                "R": 0.0,
+                "D": 0.0
+            },
+            "MBRGW": {
+                "Type": "Treatment",
+                "Q": 1.2,
+                "E": 1.85,
+                "r": 0.9,
+                "R": 0.0,
+                "D": 0.0
+            }
+        },
+        "Applications": {
+            "TL": {
+                "Type": "Q_TL",
+                "IE": 2.3,
+                "Q_lpd": 21.3,
+                "c_added": 30.0,
+                "Actor": "PumpPGW",
+                "Sourcewater": "PGW",
+                "Wastewater": "BW"
+            },
+            "BT": {
+                "Type": "Q_BT",
+                "IE": 2.3,
+                "Q_lpd": 5.1,
+                "c_added": 96.0,
+                "Actor": "PumpPW",
+                "Sourcewater": "PW",
+                "Wastewater": "GW"
+            },
+            "SH": {
+                "Type": "Q_SH",
+                "IE": 2.3,
+                "Q_lpd": 23.8,
+                "c_added": 214.0,
+                "Actor": "PumpPW",
+                "Sourcewater": "PW",
+                "Wastewater": "GW"
+            },
+            "BS": {
+                "Type": "Q_BS",
+                "IE": 2.3,
+                "Q_lpd": 9.4,
+                "c_added": 167.0,
+                "Actor": "PumpPW",
+                "Sourcewater": "PW",
+                "Wastewater": "GW"
+            },
+            "WM": {
+                "Type": "Q_WM",
+                "IE": 2.3,
+                "Q_lpd": 16.6,
+                "c_added": 380.0,
+                "Actor": "PumpPGW",
+                "Sourcewater": "PGW",
+                "Wastewater": "GW"
+            },
+            "DW": {
+                "Type": "Q_DW",
+                "IE": 2.3,
+                "Q_lpd": 2.3,
+                "c_added": 646.0,
+                "Actor": "PumpPW",
+                "Sourcewater": "PW",
+                "Wastewater": "GW"
+            },
+            "KS": {
+                "Type": "Q_KS",
+                "IE": 2.3,
+                "Q_lpd": 17.1,
+                "c_added": 153.0,
+                "Actor": "PumpPW",
+                "Sourcewater": "PW",
+                "Wastewater": "GW"
+            },
+            "CL": {
+                "Type": "Q_CL",
+                "Q_ld": 5.8,
+                "c_added": 530.0,
+                "Actor": "PumpPGW",
+                "Sourcewater": "PGW",
+                "Wastewater": "BW"
+            },
+            "GA": {
+                "Type": "Q_GA",
+                "Q_ld": 7.4,
+                "c_added": 0.0,
+                "Actor": "PumpPGW",
+                "Sourcewater": "PGW",
+                "Wastewater": "Infiltration",
                 "IrrigationThreshold": 5.0
             }
         },
-        "Tanks": {
-            "V_RW_min": 0.5,
-            "c_PGW_max": 350.0,
-            "Used": {
-                "Set_PW_tank": true,
-                "Set_RW_tank": true,
-                "Set_PGW_tank": true,
-                "Set_GW_tank": true,
-                "Set_BW_tank": true
+        "Sources": {
+            "Roof": {
+                "Type": "Catchment",
+                "Feeds": "RW",
+                "A": 106.0,
+                "c": 7.7,
+                "eta_rain": 0.81
             },
-            "NominalVolumes": {
-                "V_PW_tank": 1.0,
-                "V_RW_tank": 10.0,
-                "V_PGW_tank": 1.0,
-                "V_GW_tank": 0.5,
-                "V_BW_tank": 1.0
-            },
-            "Prefilled": {
-                "PW_prefill": true,
-                "RW_prefill": true,
-                "PGW_prefill": true,
-                "GW_prefill": false,
-                "BW_prefill": false
-            },
-            "InitialVolume": {
-                "V_PW_init": 1.0,
-                "V_RW_init": 10.0,
-                "V_PGW_init": 1.0,
-                "V_GW_init": 0.0,
-                "V_BW_init": 0.0
+            "CityWater": {
+                "Type": "Tap",
+                "c": 70.0
             }
         },
-        "TechnologicalSpecifications": {
-            "Technologies": {
-                "UseTechnology": {
-                    "Sel_RO_GWBW": false,
-                    "Sel_RO_PW": true,
-                    "Sel_MBR_GW": true,
-                    "Sel_MBR_BW": true
-                },
-                "DesignFlow": {
-                    "Q_ROGWBW": 1.2,
-                    "Q_ROPW": 0.6,
-                    "Q_MBRBW": 1.2,
-                    "Q_MBRGW": 1.2
-                },
-                "EnergyUse": {
-                    "E_ROGWBW": 2.0,
-                    "E_ROPW": 1.5,
-                    "E_MBRGW": 1.85,
-                    "E_MBRBW": 0.5
-                },
-                "WaterRecovery": {
-                    "r_ROGWBW": 0.6,
-                    "r_ROPW": 0.8,
-                    "r_MBRGW": 0.9,
-                    "r_MBRBW": 0.9
-                },
-                "RemovalRejection": {
-                    "R_ROGWBW": 0.95,
-                    "R_ROPW": 0.95,
-                    "R_MBRGW": 0.0,
-                    "R_MBRBW": 0.0
-                },
-                "RemovalDegradation": {
-                    "D_ROGWBW": 0.0,
-                    "D_ROPW": 0.0,
-                    "D_MBRGW": 0.0,
-                    "D_MBRBW": 0.0
-                },
-                "Pumps": {
-                    "Sel_pump": true,
-                    "Q_pump": 1.2,
-                    "E_pump": 0.2
-                },
-                "R_GW": 0.05,
-                "R_BW": 0.05
-            }
+        "Sinks": {
+            "Infiltration": {},
+            "Truck": {}
         },
-        "Reuse": {
-            "General": {
-                "Set_BW_reuse": false,
-                "Set_infil_GW_DropDown": "Infiltrate",
-                "Set_infil_BW_DropDown": "Infiltrate",
-                "Set_infil_RW_DropDown": "Infiltrate",
-                "Set_infil_purge_DropDown": "Infiltrate",
-                "Set_RO_purge": false,
-                "Set_infil_PGW": true
+        "Energy": {
+            "RenewableEnergy": true,
+            "kWp_panels": 0.5,
+            "UseBattery": true,
+            "C_battery": 2.0,
+            "eta_heat": 0.9,
+            "eta_inverter": 0.95,
+            "eta_battery": 0.9
+        },
+        "Controls": {
+            "RWPW": {
+                "Priority": 1,
+                "ControlType": "hysteresis",
+                "Type": "fill/increase",
+                "Tank": "PW",
+                "Parameter": "V",
+                "Flow": 0.6,
+                "TriggerLowRenewable": 0.8,
+                "TriggerHighRenewable": 1.0,
+                "TriggerLowGrid": 0.5,
+                "TriggerHighGrid": 0.8,
+                "Steps": [
+                    {
+                        "Treat": {
+                            "Fraction": 1.0,
+                            "Actor": "ROPW",
+                            "Source": "RW",
+                            "Sink": "PW",
+                            "Waste": "BW"
+                        }
+                    }
+                ]
             },
-            "WaterQualityUsed": {
-                "TL_DropDown": "Purified greywater",
-                "BT_DropDown": "Potable water",
-                "SH_DropDown": "Potable water",
-                "BS_DropDown": "Potable water",
-                "WM_DropDown": "Purified greywater",
-                "DW_DropDown": "Potable water",
-                "KS_DropDown": "Potable water",
-                "CL_DropDown": "Purified greywater",
-                "GA_DropDown": "Purified greywater"
+            "CWPW": {
+                "Priority": 2,
+                "ControlType": "hysteresis",
+                "Type": "fill/increase",
+                "Tank": "PW",
+                "Parameter": "V",
+                "Flow": 15.0,
+                "TriggerLowRenewable": 0.25,
+                "TriggerHighRenewable": 0.5,
+                "TriggerLowGrid": 0.25,
+                "TriggerHighGrid": 0.5,
+                "Steps": [
+                    {
+                        "Fill": {
+                            "Fraction": 1.0,
+                            "Actor": "CityWater",
+                            "Source": "CityWater",
+                            "Sink": "PW",
+                            "Waste": "PW"
+                        }
+                    }
+                ]
             },
-            "WastewaterToGW": {
-                "Sel_BT": "1",
-                "Sel_SH": "1",
-                "Sel_BS": "1",
-                "Sel_WM": "1",
-                "Sel_DW": "1",
-                "Sel_KS": "1",
-                "Sel_CL": "0"
+            "RW_infil": {
+                "Priority": 3,
+                "ControlType": "full",
+                "Type": "empty/lower",
+                "Tank": "RW",
+                "Parameter": "V",
+                "Flow": 1.0,
+                "TriggerLowRenewable": 10.0,
+                "TriggerHighRenewable": 10.001,
+                "TriggerLowGrid": 10.0,
+                "TriggerHighGrid": 10.001,
+                "Steps": [
+                    {
+                        "Purge": {
+                            "Fraction": 1.0,
+                            "Actor": "PumpRW",
+                            "Source": "RW",
+                            "Sink": "PGW",
+                            "Waste": "PGW"
+                        }
+                    },
+                    {
+                        "Infiltrate": {
+                            "Fraction": 1.0,
+                            "Actor": "Infiltration",
+                            "Source": "PGW",
+                            "Sink": "Infiltration",
+                            "Waste": "Infiltration"
+                        }
+                    }
+                ]
+            },
+            "GW_infil": {
+                "Priority": 4,
+                "ControlType": "hysteresis",
+                "Type": "empty/lower",
+                "Tank": "GW",
+                "Parameter": "V",
+                "Flow": 1.2,
+                "TriggerLowRenewable": 0.4,
+                "TriggerHighRenewable": 0.45,
+                "TriggerLowGrid": 0.45,
+                "TriggerHighGrid": 0.475,
+                "Steps": [
+                    {
+                        "Treat": {
+                            "Fraction": 1.0,
+                            "Actor": "MBRGW",
+                            "Source": "GW",
+                            "Sink": "Infiltration",
+                            "Waste": "BW"
+                        }
+                    }
+                ]
+            },
+            "BW_infil": {
+                "Priority": 5,
+                "ControlType": "hysteresis",
+                "Type": "empty/lower",
+                "Tank": "BW",
+                "Parameter": "V",
+                "Flow": 1.2,
+                "TriggerLowRenewable": 0.8,
+                "TriggerHighRenewable": 0.9,
+                "TriggerLowGrid": 0.9,
+                "TriggerHighGrid": 0.95,
+                "Steps": [
+                    {
+                        "Treat": {
+                            "Fraction": 1.0,
+                            "Actor": "MBRBW",
+                            "Source": "BW",
+                            "Sink": "Infiltration",
+                            "Waste": "BW"
+                        }
+                    }
+                ]
+            },
+            "Purge": {
+                "Priority": 6,
+                "ControlType": "hysteresis",
+                "Type": "empty/lower",
+                "Tank": "PGW",
+                "Parameter": "c",
+                "Flow": 15.0,
+                "TriggerLowRenewable": 315.0,
+                "TriggerHighRenewable": 332.5,
+                "TriggerLowGrid": 332.5,
+                "TriggerHighGrid": 350.0,
+                "Steps": [
+                    {
+                        "Purge": {
+                            "Fraction": 1.0,
+                            "Actor": "PumpRW",
+                            "Source": "RW",
+                            "Sink": "PGW",
+                            "Waste": "PGW"
+                        }
+                    },
+                    {
+                        "Infiltrate": {
+                            "Fraction": 1.0,
+                            "Actor": "Infiltration",
+                            "Source": "PGW",
+                            "Sink": "Infiltration",
+                            "Waste": "Infiltration"
+                        }
+                    }
+                ]
+            },
+            "GWPGW_emptyGW": {
+                "Priority": 7,
+                "ControlType": "hysteresis",
+                "Type": "empty/lower",
+                "Tank": "GW",
+                "Parameter": "V",
+                "Flow": 1.2,
+                "TriggerLowRenewable": 0.0,
+                "TriggerHighRenewable": 0.2,
+                "TriggerLowGrid": 0.2,
+                "TriggerHighGrid": 0.4,
+                "Steps": [
+                    {
+                        "Treat": {
+                            "Fraction": 1.0,
+                            "Actor": "MBRGW",
+                            "Source": "GW",
+                            "Sink": "ROGWBW",
+                            "Waste": "BW"
+                        }
+                    },
+                    {
+                        "Treat": {
+                            "Fraction": 1.0,
+                            "Actor": "ROGWBW",
+                            "Source": "ROGWBW",
+                            "Sink": "PGW",
+                            "Waste": "BW"
+                        }
+                    }
+                ]
+            },
+            "GWPGW_refillPGW": {
+                "Priority": 8,
+                "ControlType": "hysteresis",
+                "Type": "fill/increase",
+                "Tank": "PGW",
+                "Parameter": "V",
+                "Flow": 1.2,
+                "TriggerLowRenewable": 0.9,
+                "TriggerHighRenewable": 1.0,
+                "TriggerLowGrid": 0.5,
+                "TriggerHighGrid": 0.6,
+                "Steps": [
+                    {
+                        "Treat": {
+                            "Fraction": 1.0,
+                            "Actor": "MBRGW",
+                            "Source": "GW",
+                            "Sink": "ROGWBW",
+                            "Waste": "BW"
+                        }
+                    },
+                    {
+                        "Treat": {
+                            "Fraction": 1.0,
+                            "Actor": "ROGWBW",
+                            "Source": "ROGWBW",
+                            "Sink": "PGW",
+                            "Waste": "BW"
+                        }
+                    }
+                ]
+            },
+            "RWPGW": {
+                "Priority": 9,
+                "ControlType": "hysteresis",
+                "Type": "fill/increase",
+                "Tank": "PGW",
+                "Parameter": "V",
+                "Flow": 15.0,
+                "TriggerLowRenewable": 0.25,
+                "TriggerHighRenewable": 0.5,
+                "TriggerLowGrid": 0.1,
+                "TriggerHighGrid": 0.25,
+                "Steps": [
+                    {
+                        "Treat": {
+                            "Fraction": 1.0,
+                            "Actor": "PumpRW",
+                            "Source": "RW",
+                            "Sink": "PGW",
+                            "Waste": "BW"
+                        }
+                    }
+                ]
+            },
+            "RainRefillControl": {
+                "Priority": 10,
+                "ControlType": "full",
+                "Type": "fill/increase",
+                "Tank": "RW",
+                "Parameter": "V",
+                "Flow": 1.0,
+                "TriggerLowRenewable": 0.5,
+                "TriggerHighRenewable": 10.0,
+                "TriggerLowGrid": 0.5,
+                "TriggerHighGrid": 10.0,
+                "Steps": [
+                    {
+                        "Tap": {
+                            "Fraction": 1.0,
+                            "Actor": "CityWater",
+                            "Source": "CityWater",
+                            "Sink": "RW",
+                            "Waste": "RW"
+                        }
+                    }
+                ]
+            },
+            "GW_empty": {
+                "Priority": 11,
+                "ControlType": "full",
+                "Type": "empty/lower",
+                "Tank": "GW",
+                "Parameter": "V",
+                "Flow": 1.0,
+                "TriggerLowRenewable": 0.0,
+                "TriggerHighRenewable": 0.5,
+                "TriggerLowGrid": 0.0,
+                "TriggerHighGrid": 0.5,
+                "Steps": [
+                    {
+                        "Truck": {
+                            "Fraction": 1.0,
+                            "Actor": "Truck",
+                            "Source": "GW",
+                            "Sink": "Truck",
+                            "Waste": "Truck"
+                        }
+                    }
+                ]
+            },
+            "BW_empty": {
+                "Priority": 12,
+                "ControlType": "full",
+                "Type": "empty/lower",
+                "Tank": "BW",
+                "Parameter": "V",
+                "Flow": 1.0,
+                "TriggerLowRenewable": 0.0,
+                "TriggerHighRenewable": 1.0,
+                "TriggerLowGrid": 0.0,
+                "TriggerHighGrid": 1.0,
+                "Steps": [
+                    {
+                        "Truck": {
+                            "Fraction": 1.0,
+                            "Actor": "Truck",
+                            "Source": "BW",
+                            "Sink": "Truck",
+                            "Waste": "Truck"
+                        }
+                    }
+                ]
             }
         }
     }

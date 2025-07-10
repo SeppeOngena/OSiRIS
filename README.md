@@ -19,9 +19,9 @@
   <img src="https://github.com/SeppeOngena/Decentralized-House-Model/blob/main/Example%20Results/Schemes/8%20-%20Extreme%20dec.%20%2B%20BW%20reuse.png" alt="Fully decentralized" width="32%"/>
 </p>
 
-  - Scalable from single household to district level (e.g. weighted rain correction factor for roads vs. roofs, increased pump energy for greater distances,…)
+  - Scalable from single household to district or city level
 - Water and pollutant balance: incoming precipitation, storage tanks, usage in household, and infiltration, sewer, or collection by truck
-- Simplified treatment for water reuse simulation based on treatment "specsheet": recovery, energy use, design flow, rejection (membranes), degradation\
+- Simplified treatment for water reuse simulation based on treatment "spec-sheet": recovery, energy use, design flow, rejection (membranes), degradation\
   \
   <img src="https://github.com/user-attachments/assets/848a225a-11ef-4ce9-a5f9-8af4ca9a56ac" alt="Treatment specsheet" width="20%"/>
 
