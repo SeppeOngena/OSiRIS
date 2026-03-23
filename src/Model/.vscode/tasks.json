@@ -1,0 +1,35 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "build OSiRIS",
+            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-O0",
+                "-Wall",
+                "${file}",
+                "-I", "C:/Users/songena/vcpkg/installed/x64-mingw-static/include",
+                "-L", "C:/Users/songena/vcpkg/installed/x64-mingw-static/lib",
+                "-ljsoncpp",
+                "-static",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-std=c++20"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build OSiRIS using g++"
+        }
+    ],
+    "version": "2.0.0"
+}

@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+
+<picture version='3' xmlns:rgml='http://r-project.org/RGML' source='Figures/KPI_icons/EIF.eps' date='2025-10-07 11:54:23.673288' creator='R (4.3.1)' >
+
+<path type='fill' id='1'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='4099.69' x='111.211'/>
+	<line y='4099.69' x='379.262'/>
+	<line y='3997.58' x='379.262'/>
+	<line y='3997.58' x='111.211'/>
+	<line y='4099.69' x='111.211'/>
+</path>
+
+<path type='fill' id='2'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='4286.37' x='477.621'/>
+	<line y='4467.66' x='291.559'/>
+	<line y='4541.48' x='367.27'/>
+	<line y='4360.23' x='553.59'/>
+	<line y='4286.37' x='477.621'/>
+	<move y='4286.37' x='477.621'/>
+</path>
+
+<path type='fill' id='3'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='4042.77' x='1130.04'/>
+	<line y='4034.94' x='1130.04'/>
+	<line y='4011.46' x='1128.38'/>
+	<line y='3981.06' x='1123.5'/>
+	<line y='3951.71' x='1115.57'/>
+	<line y='3923.59' x='1104.75'/>
+	<line y='3896.82' x='1091.2'/>
+	<line y='3871.57' x='1075.08'/>
+	<line y='3848.0' x='1056.55'/>
+	<line y='3826.25' x='1035.79'/>
+	<line y='3806.48' x='1012.94'/>
+	<line y='3788.86' x='988.168'/>
+	<line y='3773.52' x='961.641'/>
+	<line y='3760.62' x='933.52'/>
+	<line y='3750.32' x='903.965'/>
+	<line y='3742.78' x='873.141'/>
+	<line y='3738.14' x='841.203'/>
+	<line y='3736.56' x='816.539'/>
+	<line y='3736.56' x='808.32'/>
+	<line y='3736.56' x='800.086'/>
+	<line y='3738.14' x='775.391'/>
+	<line y='3742.78' x='743.422'/>
+	<line y='3750.32' x='712.57'/>
+	<line y='3760.62' x='683.004'/>
+	<line y='3773.52' x='654.875'/>
+	<line y='3788.86' x='628.352'/>
+	<line y='3806.48' x='603.59'/>
+	<line y='3826.25' x='580.75'/>
+	<line y='3848.0' x='559.996'/>
+	<line y='3871.57' x='541.488'/>
+	<line y='3896.82' x='525.387'/>
+	<line y='3923.59' x='511.852'/>
+	<line y='3951.71' x='501.047'/>
+	<line y='3981.06' x='493.129'/>
+	<line y='4011.46' x='488.258'/>
+	<line y='4034.94' x='486.602'/>
+	<line y='4042.77' x='486.602'/>
+	<line y='4050.59' x='486.602'/>
+	<line y='4074.07' x='488.258'/>
+	<line y='4104.48' x='493.129'/>
+	<line y='4133.82' x='501.047'/>
+	<line y='4161.95' x='511.852'/>
+	<line y='4188.71' x='525.387'/>
+	<line y='4213.96' x='541.488'/>
+	<line y='4237.53' x='559.996'/>
+	<line y='4259.27' x='580.75'/>
+	<line y='4279.04' x='603.59'/>
+	<line y='4296.66' x='628.352'/>
+	<line y='4312.0' x='654.875'/>
+	<line y='4324.89' x='683.004'/>
+	<line y='4335.18' x='712.57'/>
+	<line y='4342.73' x='743.422'/>
+	<line y='4347.37' x='775.391'/>
+	<line y='4348.95' x='800.086'/>
+	<line y='4348.95' x='808.32'/>
+	<line y='4348.95' x='816.539'/>
+	<line y='4347.37' x='841.203'/>
+	<line y='4342.73' x='873.141'/>
+	<line y='4335.18' x='903.965'/>
+	<line y='4324.89' x='933.52'/>
+	<line y='4312.0' x='961.641'/>
+	<line y='4296.66' x='988.168'/>
+	<line y='4279.04' x='1012.94'/>
+	<line y='4259.27' x='1035.79'/>
+	<line y='4237.53' x='1056.55'/>
+	<line y='4213.96' x='1075.08'/>
+	<line y='4188.71' x='1091.2'/>
+	<line y='4161.95' x='1104.75'/>
+	<line y='4133.82' x='1115.57'/>
+	<line y='4104.48' x='1123.5'/>
+	<line y='4074.07' x='1128.38'/>
+	<line y='4050.59' x='1130.04'/>
+	<line y='4042.77' x='1130.04'/>
+	<line y='4042.77' x='1130.04'/>
+	<move y='4042.77' x='1130.04'/>
+</path>
+
+<path type='fill' id='4'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='4712.07' x='754.648'/>
+	<line y='4712.07' x='861.988'/>
+	<line y='4456.87' x='861.988'/>
+	<line y='4456.87' x='754.648'/>
+	<line y='4712.07' x='754.648'/>
+</path>
+
+<path type='fill' id='5'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='4099.69' x='1237.38'/>
+	<line y='4099.69' x='1505.43'/>
+	<line y='3997.58' x='1505.43'/>
+	<line y='3997.58' x='1237.38'/>
+	<line y='4099.69' x='1237.38'/>
+</path>
+
+<path type='fill' id='6'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='4286.37' x='1139.02'/>
+	<line y='4467.66' x='1325.08'/>
+	<line y='4541.48' x='1249.38'/>
+	<line y='4360.23' x='1063.01'/>
+	<line y='4286.37' x='1139.02'/>
+	<move y='4286.37' x='1139.02'/>
+</path>
+
+<path type='fill' id='7'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='3805.04' x='477.621'/>
+	<line y='3623.75' x='291.559'/>
+	<line y='3549.92' x='367.27'/>
+	<line y='3731.17' x='553.59'/>
+	<line y='3805.04' x='477.621'/>
+	<move y='3805.04' x='477.621'/>
+</path>
+
+<path type='fill' id='8'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='3634.53' x='754.648'/>
+	<line y='3634.53' x='861.988'/>
+	<line y='3379.37' x='861.988'/>
+	<line y='3379.37' x='754.648'/>
+	<line y='3634.53' x='754.648'/>
+</path>
+
+<path type='fill' id='9'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='3805.04' x='1139.02'/>
+	<line y='3623.75' x='1325.08'/>
+	<line y='3549.92' x='1249.38'/>
+	<line y='3731.17' x='1063.01'/>
+	<line y='3805.04' x='1139.02'/>
+	<move y='3805.04' x='1139.02'/>
+</path>
+
+<path type='fill' id='10'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='2491.68' x='2350.2'/>
+	<line y='2491.68' x='3267.11'/>
+	<line y='2982.27' x='3201.21'/>
+	<line y='2982.27' x='2416.37'/>
+	<line y='2491.68' x='2350.2'/>
+	<move y='2491.68' x='2350.2'/>
+</path>
+
+<path type='fill' id='11'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='3186.41' x='3389.73'/>
+	<line y='3186.41' x='4150.55'/>
+	<line y='3618.75' x='3945.98'/>
+	<line y='3618.75' x='3331.68'/>
+	<line y='3186.41' x='3389.73'/>
+	<move y='3186.41' x='3389.73'/>
+</path>
+
+<path type='fill' id='12'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='2491.68' x='3483.44'/>
+	<line y='2491.68' x='4479.1'/>
+	<line y='2982.27' x='4246.99'/>
+	<line y='2982.27' x='3417.23'/>
+	<line y='2491.68' x='3483.44'/>
+	<move y='2491.68' x='3483.44'/>
+</path>
+
+<path type='fill' id='13'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='2287.54' x='3510.94'/>
+	<line y='1743.48' x='3584.22'/>
+	<line y='1743.48' x='4830.51'/>
+	<line y='1748.36' x='4830.51'/>
+	<line y='2287.54' x='4575.55'/>
+	<line y='2287.54' x='3510.94'/>
+	<move y='2287.54' x='3510.94'/>
+</path>
+
+<path type='fill' id='14'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='3186.41' x='2443.91'/>
+	<line y='3186.41' x='3173.67'/>
+	<line y='3618.75' x='3115.39'/>
+	<line y='3618.75' x='2502.19'/>
+	<line y='3186.41' x='2443.91'/>
+	<move y='3186.41' x='2443.91'/>
+</path>
+
+<path type='fill' id='15'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='1213.87' x='4830.51'/>
+	<line y='1539.38' x='4830.51'/>
+	<line y='1539.38' x='786.801'/>
+	<line y='1213.87' x='786.801'/>
+	<line y='1213.87' x='2647.93'/>
+	<line y='725.699' x='2647.93'/>
+	<line y='725.699' x='2078.59'/>
+	<line y='419.492' x='2078.59'/>
+	<line y='419.492' x='3538.71'/>
+	<line y='725.699' x='3538.71'/>
+	<line y='725.699' x='2969.65'/>
+	<line y='1213.87' x='2969.65'/>
+	<line y='1213.87' x='4830.51'/>
+	<move y='1213.87' x='4830.51'/>
+</path>
+
+<path type='fill' id='16'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='2491.68' x='2133.87'/>
+	<line y='2982.27' x='2200.08'/>
+	<line y='2982.27' x='1370.59'/>
+	<line y='2491.68' x='1138.48'/>
+	<line y='2491.68' x='2133.87'/>
+	<move y='2491.68' x='2133.87'/>
+</path>
+
+<path type='fill' id='17'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='1743.48' x='3367.93'/>
+	<line y='2287.54' x='3294.65'/>
+	<line y='2287.54' x='2322.66'/>
+	<line y='1743.48' x='2249.38'/>
+	<line y='1743.48' x='3367.93'/>
+	<move y='1743.48' x='3367.93'/>
+</path>
+
+<path type='fill' id='18'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='1743.48' x='2033.36'/>
+	<line y='2287.54' x='2106.37'/>
+	<line y='2287.54' x='1041.76'/>
+	<line y='1748.36' x='786.801'/>
+	<line y='1743.48' x='786.801'/>
+	<line y='1743.48' x='2033.36'/>
+	<move y='1743.48' x='2033.36'/>
+</path>
+
+<path type='fill' id='19'>
+	<context>
+		<rgb r='1.0' g='0.752941' b='0.0'/>
+		<style lwd='10.0' lty='' lineend='0' linemitre='10.0' linejoin='0'/>
+	</context>
+
+	<move y='3186.41' x='2227.58'/>
+	<line y='3618.75' x='2285.9'/>
+	<line y='3618.75' x='1671.6'/>
+	<line y='3186.41' x='1467.03'/>
+	<line y='3186.41' x='2227.58'/>
+	<move y='3186.41' x='2227.58'/>
+</path>
+
+<summary count='19' ymax='4712.07' ymin='419.492' xmax='4830.51' xmin='111.211'/>
+
+</picture>

@@ -1,0 +1,489 @@
+{
+    "Version": "3",
+    "Dataset": {
+        "phi": 51.001111,
+        "lambda": 4.084444,
+        "z": 5.0,
+        "dt": 900.0,
+        "IrrigationThreshold": 5.0,
+        "TimeZone": "Europe/Brussels",
+        "WaterOptions": {
+            "RainDataPath": ".\\Data\\SourceData\\Water15M2015-2025Denderbelle.csv",
+            "Decimalsep": ",",
+            "Delimiter": ";",
+            "tformat": "yyyy-MM-dd'T'HH:mm:ss.SSSZZZZZ"
+        },
+        "SolarOptions": {
+            "UsePVModel": true,
+            "PVModelSettings": {
+                "ClouddataTable": {
+                    "Clear": [
+                        1.4,
+                        1.9,
+                        3.1,
+                        2.6,
+                        2.7,
+                        2.1,
+                        2.1,
+                        2.7,
+                        2.7,
+                        1.8,
+                        0.7,
+                        1.3
+                    ],
+                    "Cloudy": [
+                        22.0,
+                        19.2,
+                        22.4,
+                        24.8,
+                        24.6,
+                        25.5,
+                        26.4,
+                        27.0,
+                        25.3,
+                        25.6,
+                        23.1,
+                        20.9
+                    ],
+                    "Overcast": [
+                        7.7,
+                        7.1,
+                        5.6,
+                        2.5,
+                        3.7,
+                        2.4,
+                        2.5,
+                        1.2,
+                        2.0,
+                        3.6,
+                        6.2,
+                        8.7
+                    ]
+                },
+                "alpha": 0.0,
+                "beta": 40.0,
+                "rho": 0.2,
+                "Tlk": 3.0
+            },
+            "SolarFile": {
+                "SolarDataPath": "",
+                "DecimalsepSolar": ".",
+                "DelimiterSolar": ",",
+                "tformatSolar": "yyyyMMdd:HHmm"
+            }
+        }
+    },
+    "Scenario": {
+        "Tanks": {
+            "RW": {
+                "V_tank": 10.0,
+                "prefill": true,
+                "V_init": 10.0,
+                "c_init": 70.0,
+                "R": 0.0
+            },
+            "GW": {
+                "V_tank": 0.5,
+                "prefill": false,
+                "V_init": 0.0,
+                "c_init": 0.0,
+                "R": 0.05
+            },
+            "BW": {
+                "V_tank": 1.0,
+                "prefill": false,
+                "V_init": 0.0,
+                "c_init": 0.0,
+                "R": 0.05
+            }
+        },
+        "Technologies": {
+            "PumpRW": {
+                "Type": "Pump",
+                "Q": 100.0,
+                "E": 1.5,
+                "EMS": [
+                    "Renewable",
+                    "Grid"
+                ]
+            },
+            "PumpGW": {
+                "Type": "Pump",
+                "Q": 100.0,
+                "E": 1.5,
+                "EMS": [
+                    "Renewable",
+                    "Grid"
+                ]
+            },
+            "PumpBW": {
+                "Type": "Pump",
+                "Q": 100.0,
+                "E": 1.5,
+                "EMS": [
+                    "Renewable",
+                    "Grid"
+                ]
+            },
+            "MBRBW": {
+                "Type": "Treatment",
+                "Q": 1.2,
+                "E": 0.5,
+                "r": 0.9,
+                "R": 0.0,
+                "D": 0.0,
+                "EMS": [
+                    "Renewable",
+                    "Grid"
+                ]
+            },
+            "MBRGW": {
+                "Type": "Treatment",
+                "Q": 1.2,
+                "E": 1.85,
+                "r": 0.9,
+                "R": 0.0,
+                "D": 0.0,
+                "EMS": [
+                    "Renewable",
+                    "Grid"
+                ]
+            }
+        },
+        "Applications": {
+            "TL": {
+                "DistributionData": "Toilet",
+                "IE": 2.3,
+                "Q_lpd": 21.3,
+                "c_added": 30.0,
+                "Actor": "PumpRW",
+                "Sourcewater": "RW",
+                "Wastewater": "BW"
+            },
+            "BT": {
+                "DistributionData": "ShowerBath",
+                "IE": 2.3,
+                "Q_lpd": 5.1,
+                "c_added": 96.0,
+                "Actor": "CityWater",
+                "Sourcewater": "CityWater",
+                "Wastewater": "GW"
+            },
+            "SH": {
+                "DistributionData": "ShowerBath",
+                "IE": 2.3,
+                "Q_lpd": 23.8,
+                "c_added": 214.0,
+                "Actor": "CityWater",
+                "Sourcewater": "CityWater",
+                "Wastewater": "GW"
+            },
+            "BS": {
+                "DistributionData": "BathroomSink",
+                "IE": 2.3,
+                "Q_lpd": 9.4,
+                "c_added": 167.0,
+                "Actor": "CityWater",
+                "Sourcewater": "CityWater",
+                "Wastewater": "GW"
+            },
+            "WM": {
+                "DistributionData": "WashingMachine",
+                "IE": 2.3,
+                "Q_lpd": 16.6,
+                "c_added": 380.0,
+                "Actor": "PumpRW",
+                "Sourcewater": "RW",
+                "Wastewater": "GW"
+            },
+            "DW": {
+                "DistributionData": "Kitchen",
+                "IE": 2.3,
+                "Q_lpd": 2.3,
+                "c_added": 646.0,
+                "Actor": "CityWater",
+                "Sourcewater": "CityWater",
+                "Wastewater": "GW"
+            },
+            "KS": {
+                "DistributionData": "Kitchen",
+                "IE": 2.3,
+                "Q_lpd": 17.1,
+                "c_added": 153.0,
+                "Actor": "CityWater",
+                "Sourcewater": "CityWater",
+                "Wastewater": "GW"
+            },
+            "CL": {
+                "DistributionData": "Uniform",
+                "Q_ld": 5.8,
+                "c_added": 530.0,
+                "Actor": "PumpRW",
+                "Sourcewater": "RW",
+                "Wastewater": "BW"
+            },
+            "GA": {
+                "DistributionData": "Irrigation",
+                "Q_ld": 7.4,
+                "c_added": 0.0,
+                "Actor": "PumpRW",
+                "Sourcewater": "RW",
+                "Wastewater": "Infiltration",
+                "IrrigationThreshold": 5.0
+            }
+        },
+        "Sources": {
+            "Roof": {
+                "Type": "Catchment",
+                "Data": "Rain_mm",
+                "Feeds": "RW",
+                "A": 106.0,
+                "c": 7.7,
+                "eta_rain": 0.81
+            },
+            "CityWater": {
+                "Type": "Tap",
+                "c": 70.0
+            }
+        },
+        "Sinks": {
+            "Infiltration": {},
+            "Truck": {}
+        },
+        "EnergyManagementSystems": {
+            "Renewable": {
+                "Batteries": {
+                    "battery": {
+                        "C_battery": 2.0,
+                        "C_battery_init": 2.0,
+                        "eta_battery": 0.9
+                    }
+                },
+                "Generators": {
+                    "SolarPanels": {
+                        "Type": "PV",
+                        "Data": "E_insolation",
+                        "kWp_panels": 0.5,
+                        "eta_heat": 0.9,
+                        "eta_inverter": 0.95
+                    }
+                }
+            },
+            "Grid": {
+                "Generators": {
+                    "Centralized": {
+                        "Type": "Other",
+                        "Data": "Uniform",
+                        "Multiplier": 1e308
+                    }
+                }
+            }
+        },
+        "Controls": [
+            {
+                "RW_infil": {
+                    "ControlType": "full",
+                    "Type": "empty/lower",
+                    "Tank": "RW",
+                    "Parameter": "V",
+                    "Flow": 1.0,
+                    "Limits": [
+                        {
+                            "Renewable": {
+                                "Low": 10.0,
+                                "High": 10.001
+                            }
+                        },
+                        {
+                            "Grid": {
+                                "Low": 10.0,
+                                "High": 10.001
+                            }
+                        }
+                    ],
+                    "Steps": [
+                        {
+                            "Infiltrate": {
+                                "Fraction": 1.0,
+                                "Actor": "Infiltration",
+                                "Source": "RW",
+                                "Sink": "Infiltration",
+                                "Waste": "Infiltration"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "GW_infil": {
+                    "ControlType": "hysteresis",
+                    "Type": "empty/lower",
+                    "Tank": "GW",
+                    "Parameter": "V",
+                    "Flow": 1.2,
+                    "Limits": [
+                        {
+                            "Renewable": {
+                                "Low": 0.4,
+                                "High": 0.45
+                            }
+                        },
+                        {
+                            "Grid": {
+                                "Low": 0.45,
+                                "High": 0.475
+                            }
+                        }
+                    ],
+                    "Steps": [
+                        {
+                            "Treat": {
+                                "Fraction": 1.0,
+                                "Actor": "MBRGW",
+                                "Source": "GW",
+                                "Sink": "Infiltration",
+                                "Waste": "BW"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "BW_infil": {
+                    "ControlType": "hysteresis",
+                    "Type": "empty/lower",
+                    "Tank": "BW",
+                    "Parameter": "V",
+                    "Flow": 1.2,
+                    "Limits": [
+                        {
+                            "Renewable": {
+                                "Low": 0.8,
+                                "High": 0.9
+                            }
+                        },
+                        {
+                            "Grid": {
+                                "Low": 0.9,
+                                "High": 0.95
+                            }
+                        }
+                    ],
+                    "Steps": [
+                        {
+                            "Treat": {
+                                "Fraction": 1.0,
+                                "Actor": "MBRBW",
+                                "Source": "BW",
+                                "Sink": "Infiltration",
+                                "Waste": "BW"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "RainRefillControl": {
+                    "ControlType": "full",
+                    "Type": "fill/increase",
+                    "Tank": "RW",
+                    "Parameter": "V",
+                    "Flow": 1.0,
+                    "Limits": [
+                        {
+                            "Renewable": {
+                                "Low": 0.5,
+                                "High": 10.0
+                            }
+                        },
+                        {
+                            "Grid": {
+                                "Low": 0.5,
+                                "High": 10.0
+                            }
+                        }
+                    ],
+                    "Steps": [
+                        {
+                            "Tap": {
+                                "Fraction": 1.0,
+                                "Actor": "CityWater",
+                                "Source": "CityWater",
+                                "Sink": "RW",
+                                "Waste": "RW"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "GW_empty": {
+                    "ControlType": "full",
+                    "Type": "empty/lower",
+                    "Tank": "GW",
+                    "Parameter": "V",
+                    "Flow": 1.0,
+                    "Limits": [
+                        {
+                            "Renewable": {
+                                "Low": 0.0,
+                                "High": 0.5
+                            }
+                        },
+                        {
+                            "Grid": {
+                                "Low": 0.0,
+                                "High": 0.5
+                            }
+                        }
+                    ],
+                    "Steps": [
+                        {
+                            "Truck": {
+                                "Fraction": 1.0,
+                                "Actor": "Truck",
+                                "Source": "GW",
+                                "Sink": "Truck",
+                                "Waste": "Truck"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "BW_empty": {
+                    "ControlType": "full",
+                    "Type": "empty/lower",
+                    "Tank": "BW",
+                    "Parameter": "V",
+                    "Flow": 1.0,
+                    "Limits": [
+                        {
+                            "Renewable": {
+                                "Low": 0.0,
+                                "High": 1.0
+                            }
+                        },
+                        {
+                            "Grid": {
+                                "Low": 0.0,
+                                "High": 1.0
+                            }
+                        }
+                    ],
+                    "Steps": [
+                        {
+                            "Truck": {
+                                "Fraction": 1.0,
+                                "Actor": "Truck",
+                                "Source": "BW",
+                                "Sink": "Truck",
+                                "Waste": "Truck"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
