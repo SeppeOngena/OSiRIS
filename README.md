@@ -59,7 +59,7 @@
 - Built-in submodels for simplified data loading:
   - Diurnal water usage patterns enabling high resolution
   <p align="center">
-    <img src="https://github.com/user-attachments/assets/d4d4e55f-debf-49d5-a849-23289ef365c1" alt="DiurnalPatterns" width="60%"/>
+    <img src="https://github.com/user-attachments/assets/d3affc83-9729-41bf-83e0-dfcd4cfb13e8" alt="DiurnalPatterns" width="60%"/>
   </p>
   
   - Solar insolation, cloud, and photovoltaic models if data is unavailable
